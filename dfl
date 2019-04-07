@@ -1,0 +1,78 @@
+[33mcommit d8ec6ece6863ac1a71fa46bfd1124d01a09488eb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: sunbun2461 <a.thomas.rio@gmail.com>
+Date:   Sun Apr 7 10:11:07 2019 -0400
+
+    commiting all files from MyGit
+
+ create mode 100644 Marg/Assets/Images/Application to More Frequently See My Face (2).pdf
+ create mode 100644 Marg/Assets/Stylesheets/MargTimeLine.css
+ create mode 100644 Marg/MargTimeLine.html
+ create mode 100644 Marg/MargTimeLine.js
+ create mode 100644 Marg/margTimeLineScript.js
+ create mode 100644 Portfolio/assets/stylesheets/mainfolio.css
+ create mode 100644 Portfolio/favicon.ico
+ create mode 100644 Portfolio/me_chalkin_code2.jpeg
+ create mode 100644 Portfolio/webdevelopfolio.html
+ create mode 100644 Web_DevelopMental_Bootstrap-index.sublime-workspace
+
+[33mcommit ea3e496b35e1c7616aaea80d501efaa35fbad006[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: sunbun2461 <a.thomas.rio@gmail.com>
+Date:   Tue Mar 26 19:21:39 2019 -0400
+
+    trying to update my bootstrap html file
+
+
+[33mcommit 2f05b2c438863db6be802a141b627297adefc39c[m
+Author: sunbun2461 <a.thomas.rio@gmail.com>
+Date:   Sun Mar 24 23:59:39 2019 -0400
+
+    trying to add all
+
+ create mode 100644 Images/1017116_c55a.jpg
+ create mode 100644 Images/bootstrap.png
+ create mode 100644 Images/coolcomp.jpg
+ create mode 100644 Images/css.png
+ create mode 100644 Images/favicon_io.zip
+ create mode 100644 Images/jquery.jpg
+ create mode 100644 Images/js.png
+ create mode 100644 Images/php.jpg
+ create mode 100644 Images/sql.jpg
+ create mode 100644 Web_DevelopMental_Bootstrap-index.html
+ create mode 100644 android-chrome-192x192.png
+ create mode 100644 apple-touch-icon.png
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-grid.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-grid.css.map
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-grid.min.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-grid.min.css.map
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-reboot.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-reboot.css.map
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap.css.map
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap.min.css
+ create mode 100644 bootstrap-4.2.1-dist/css/bootstrap.min.css.map
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.bundle.js
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.bundle.js.map
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.js
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.js.map
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.min.js
+ create mode 100644 bootstrap-4.2.1-dist/js/bootstrap.min.js.map
+ create mode 100644 bootstrap_template.html
+ create mode 100644 bootstrap_test_site.html
+ create mode 100644 favicon-16x16.png
+ create mode 100644 favicon-32x32.png
+ create mode 100644 favicon.ico
+ create mode 100644 favicon_io.zip
+ create mode 100644 site.webmanifest
+
+[33mcommit 1fb8ff71b40b41caf06642189690939a36fb02e1[m
+Author: sunbun2461 <a.thomas.rio@gmail.com>
+Date:   Sun Mar 24 23:48:55 2019 -0400
+
+    first git commit
+
+ create mode 100644 README
+ create mode 100644 sample.c
