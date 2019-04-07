@@ -1,0 +1,439 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"Prop",
+				"Property"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"f",
+				"flex-end\tjustify-content"
+			],
+			[
+				"border",
+				"border-style\tproperty"
+			],
+			[
+				"col-",
+				"col-sm-10"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"text",
+				"text-left"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"nav",
+				"nav-link"
+			],
+			[
+				"font-",
+				"font-weight-bold"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"broder",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fle",
+				"flex-start\tjustify-content"
+			],
+			[
+				"l",
+				"line-height\tproperty"
+			],
+			[
+				"dr",
+				"dropdown"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"ind",
+				"Indie"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"grid-t",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"post",
+				"post1"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"bord",
+				"border-style\tproperty"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"c",
+				"circle\tlist-style-type"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"border-",
+				"border-style\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Changelog"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 151.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thomas/Dropbox/Web Dev/Bootstrap/Web_DevelopMental_Bootstrap-index.html",
+		"/home/thomas/Dropbox/Web Dev/Notes_FCC_W3/Free Code Camp/Intro_Object_Oriented_Programming.js",
+		"/home/thomas/Dropbox/Web Dev/1st Web Dev Project-Goals/index.html",
+		"/home/thomas/Dropbox/Web Dev/1st Web Dev Project-Goals/assets/stylesheets/main.css",
+		"/home/thomas/Dropbox/Web Dev/HTML Templates/Templates/assets/css/main.css",
+		"/home/thomas/Dropbox/Web Dev/Bootstrap/bootstrap-4.2.1-dist/css/bootstrap.css",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/howto-start-a-blog.html",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/myotherprojects.html",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/thegeniusfiles.html",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/assets/stylesheets/main2.css",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/about2.html",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/index2.html",
+		"/home/thomas/Dropbox/Web Dev/Goals and to do webdev/Christmas week",
+		"/home/thomas/Dropbox/Web Dev/Notes_FCC_W3/W3 Schools Notes/Java Script W3Schools Notes 2018",
+		"/home/thomas/Dropbox/Web Dev/Notes_FCC_W3/W3 Schools Notes/BootStrap 4 Notes 2018.html",
+		"/home/thomas/Dropbox/Web Dev/Notes_FCC_W3/W3 Schools Notes/BootStrap 4 Notes 2018",
+		"/home/thomas/Dropbox/Chalk board/By New Years 2019",
+		"/home/thomas/Dropbox/Web Dev/Notes_FCC_W3/Free Code Camp/JavaScript Notes 2018 Free Code Camp",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/JavaScript Notes 2018 Free Code Camp",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/W3 Schools Notes/Bootstrap/bootstrap_test_site.html",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/W3 Schools Notes/BootStrap 4 Notes 2018",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/W3 Schools Notes/Java Script W3Schools Notes 2018",
+		"/home/thomas/.cache/.fr-xHdppQ/css/bootstrap-grid.min.css",
+		"/home/thomas/.cache/.fr-xZVQBv/css/bootstrap-grid.min.css",
+		"/home/thomas/.cache/.fr-vdk6uL/css/bootstrap-reboot.css",
+		"/home/thomas/.cache/.fr-H7VcET/css/bootstrap.css",
+		"/home/thomas/Dropbox/Web Dev/New Computer",
+		"/home/thomas/Downloads/css/bootstrap.css",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/HTML & CSS Notes 2018--Free-Code-Camp",
+		"/home/thomas/Dropbox/Journal/Whats the deal with Cala? 12-15-18",
+		"/home/thomas/Dropbox/Web Dev/Lost Hard Drive/Lost on HardDrive",
+		"/home/thomas/Dropbox/Journal/Journal _12_10_2018",
+		"/home/thomas/Dropbox/Web Dev/Ideas/Ideas.js",
+		"/home/thomas/Dropbox/Todo Continual/Motivation",
+		"/home/thomas/Dropbox/Journal/11-17-18 Cala problems",
+		"/home/thomas/Dropbox/Web Dev/breakdowns of timline and goals/goals review november 2018",
+		"/home/thomas/Dropbox/Web Dev/breakdowns of timline and goals/the Big Bad High Level List of Fall 2018",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/open tabs blog stuff 8-28-18",
+		"/home/thomas/Dropbox/Journal/Ok, so I have come to a few conclusions.  Cala is",
+		"/home/thomas/Dropbox/Work From Home/Dropshipping/DropShipping 2018",
+		"/home/thomas/Dropbox/Work From Home/Affiliate Marketing/Affiliate Marketing",
+		"/home/thomas/Dropbox/pass2018/2018passer.txt",
+		"/home/thomas/Dropbox/Todo Continual/New Plan for Life, WebDev, IT Support.txt",
+		"/home/thomas/Dropbox/Chalk board/chalk board 10-20-2018",
+		"/home/thomas/Dropbox/deep/cf/cfs",
+		"/home/thomas/Dropbox/Web Dev/2nd webDevProject-immatureGeniusBlog/immatureGenius10.jpg",
+		"/home/thomas/Dropbox/deep/Learn BH/buying learning material",
+		"/home/thomas/Dropbox/Web Dev/breakdowns of timline and goals/Quotes",
+		"/home/thomas/Dropbox/deep/pgp/PGP",
+		"/home/thomas/Dropbox/deep/9d0acc9b-957d-40c1-98bf-8987e2e71410.pdf",
+		"/home/thomas/Dropbox/RO/Dear Judge,",
+		"/home/thomas/Dropbox/Web Dev/3rd webDevProject-webDevelopmental/index3.html",
+		"/home/thomas/Dropbox/Web Dev/blog ideas",
+		"/home/thomas/Dropbox/Web Dev/Namecheap/namecheapfirst",
+		"/home/thomas/Dropbox/Web Dev/Notes_FreeCodeCamp_etc/2018-2019 Study",
+		"/home/thomas/Dropbox/Todo Continual/To Do 9-4-18",
+		"/home/thomas/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/thomas/Dropbox/Web Dev/1st Web Dev Project/assets/stylesheets/main.css",
+		"/home/thomas/Desktop/HTML & CSS Notes 2018--Free-Code-Camp2",
+		"/home/thomas/Dropbox/Web Dev/1st Web Dev Project/index.html",
+		"/home/thomas/Dropbox/Ubuntu/Windscribe/Windscribe VPN info",
+		"/home/thomas/Dropbox/Ubuntu/How to Open Tor in Ubuntu",
+		"/home/thomas/Dropbox/Web Dev/Notes/HTML & CSS Notes 2018--Free-Code-Camp",
+		"/home/thomas/Dropbox/Ubuntu/Tor/open tor browser script (look up then type in here",
+		"/home/thomas/Dropbox/Ubuntu/Tor/How to Open Tor in Ubuntu",
+		"/home/thomas/Dropbox/Ubuntu/Ubuntu to remember",
+		"/home/thomas/Dropbox/Pass/Ubuntu Passers",
+		"/home/thomas/Downloads/tor-browser_en-US/Browser/TorBrowser/start-tor-browser",
+		"/home/thomas/Dropbox/Web Dev/HTML & CSS Notes 2018 dont use",
+		"/home/thomas/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+		"/home/thomas/.config/sublime-text-3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Web_DevelopMental_Bootstrap-index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
