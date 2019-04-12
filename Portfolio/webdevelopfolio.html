@@ -1,3 +1,5 @@
+<!-- Notes -->
+
 <!-- https://stackoverflow.com/questions/41447827/pure-js-slide-menu-ability-to-close-it-on-click-outside-of-the-menu -->
 
 <!--/* CSS - Cascading Style Sheet */
@@ -70,8 +72,8 @@
 		
 	</head>
 	<body>
-		 <div class="mobile-container">
-			<!-- <div class="topnav">
+		 <!--<div class="mobile-container">
+			 <div class="topnav">
 				<a href="#home" class="active"><i class="fa fa-home"></i></a>
 				<div id="myLinks">
 					<a href="#projects">Projects</a>
@@ -85,26 +87,27 @@
 			
 			 <!-- this is how to build the overlay 
 		https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay
-			 --><div id="myNav" class="overlay">
+			 -->
+			 <div id="myNav" class="overlay">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<div class="overlay-content">
 						<a href="#">About</a>
 						<a href="#">Projects</a>
-						<a href="#">R&eacute;sum&eacute;</a> 
+						<a href="#">R&eacute;sum&eacute;</a> <!-- resume -->
 					</div>
 			</div>
 			
 			<div class="header">
-				<a href="#" class="active"><i class="fa fa-bars"></i></a>
+				<a class='openbtn' href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
 				<h1>Thomas Ashton Rio</h1>
-				<p>Aspiring Front-End Web Developer</p>
+				<p>Front-end Web Developer</p>
 				<a href="#" class="fa fa-github"></a>
 				<a href="#" class="fa fa-linkedin"></a>
 				<a href="#" class="fa fa-twitter"></a>
-				<a style="padding-right:20px;" href="#" class="fa fa-free-code-camp" ></a>
+				<a style="padding-right:22px;" href="#" class="fa fa-free-code-camp" ></a>
 			</div>
-			</div>
-			<!-- <img src="me_chalkin_code2.jpeg" alt="Thomas Rio coding in chalk"> -->
+			
+			 <!--<img src="../images/me_chalkin_code2.jpeg" alt="Thomas Rio coding in chalk"> -->
 			<script>
 				// function  myFunction(){
 				// 	var x = document.getElementById("myLinks");
@@ -114,8 +117,14 @@
 				// 		x.style.display = "block";
 				// 	}
 				// }
-					function openNav
+					function openNav(){
+						document.getElementById('myNav').style.width = "100%";
+					}
+
+					function closeNav(){
+						document.getElementById('myNav').style.width = '0%';
+					}
 			</script>
-		</div>
+		
 	</body>
 </html>
