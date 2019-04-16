@@ -193,7 +193,7 @@ div > .fa{
   font-weight: bold;
 }
 .header > p {
-  margin: 0% 0% 10%;
+  margin: 0% 5% 10%;
   font-family: muli;
   font-size: 1.0em;
   color:grey;
@@ -203,21 +203,44 @@ div > .fa{
 
 ul{
    list-style-position:  inside; 
+   list-style-type:none;
    font-family: muli;
    font-size: 1em;
    color: grey;
-   text-align:left;
+   text-align:center;
    font-weight: bold;
-   margin-bottom:25%;
+   margin-bottom:35%;
+   display:inline;
 }
 
+
+ div.thumb{
+   width: 60%;
+   background-color: white; 
+   /*box-shadow: 3px 3px 5px 6px #bbb;*/
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+   margin: 25% auto 5%;
+ }
+
+ div.info-container{
+    text-align: center;
+    padding:5% ;
+    margin: 0% auto 0%;
+    vertical-align: center;
+    font-family: muli;
+ }
 
  img{
     display: block;
     width: 100%;
-    opacity: .2;
+    opacity: .9;
     height: 100%;
+    margin: 0% auto 0;
  }
+
+div > .topIcon{
+    margin-top:20%;
+}
 
 
 /*for desktop only */
