@@ -45,7 +45,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>RioTFolio</title>
+		<title>About Me</title>
 		<link rel="stylesheet" href="assets/stylesheets/mainfolio.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -80,14 +80,15 @@
 				<a href="webdevelopfolio-resume.html">R&eacute;sum&eacute;</a> <!-- resume -->
 			</div>
 		</div>
-		
+		<div id="main">
 		<div class="header">
+			<a class="openbtnDesktop" href="#" onclick="openNav2()"><i class="fa fa-bars"></i></a>
 			<a class='openbtn' href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
 			
 			<h1>About <br><em>Thomas Ashton Rio</em></h1>
-			<p>Front-end Web Developer</p>
-			<p><span style="color:black;">Eat. Sleep. Breath</span> Development, every spare second I get. <br> In 7 months (while working full time) I've learned:</p>
-			<ul>
+			<p style="color:black;">Front-end Web Developer</p>
+			<p style="margin-top:10%;"><span style="color:black;">Eat. Sleep. Breath</span> Development, every spare second I get. <br> In 7 months (while working full time) I've learned:</p>
+			<ul style="color:black;">
 				<li>HTML5</li>
 				<li>CSS3</li>
 				<li>Vanilla JavaScript (Currently ## of 100, in an <a href="#">Algorithm challenge</a>)</li>
@@ -104,8 +105,9 @@
 			<p id="aboutP">freeCodeCamp.org's</p>
 				 
 			<ul>
-				<li>Responsive Web Design Certification (300 hours)</li>
-				<li>Javascript Algorithms And Data Structures Certification (300 hours)</li>
+				<a href=
+				"assets/images/freecodecampCert.png"><li>Responsive Web Design Certification (300 hours)</li></a>
+				<li>(Javascript Algorithms And Data Structures Certification (300 hours))</li>
 			</ul>
 
 			<p style="margin-top: 4.5em;margin-bottom: 0px">I'm a hard worker, I love:</p>
@@ -120,14 +122,14 @@
 			<a href="mailto:a.thomas.rio@gmail.com" class="fa fa-envelope-square"></a>
 			<a href="https://github.com/sunbun2461"  target="_blank"
 			class="fa fa-github"></a>
-			<a href="#" class="fa fa-linkedin"></a>
-			<a href="#" class="fa fa-code" aria-hidden="true"></a>
+			<a href="https://www.linkedin.com/in/thomas-rio-b2462a3b/" class="fa fa-linkedin"></a>
+			<a href="http://immaturegenius.com" class="fa fa-code" aria-hidden="true"></a>
 		<!-- 	<a href="#" class="fa fa-twitter"></a>
 			<a href="#" class="fa fa-free-code-camp" ></a> -->
 		</div>
 		<footer>
 		</footer>
-		
+		</div>
 		<!--<img src="../images/me_chalkin_code2.jpeg" alt="Thomas Rio coding in chalk"> -->
 		<script>
 			// function  myFunction(){
@@ -140,8 +142,17 @@
 			// }
 			openNav = () =>
 				document.getElementById('myNav').style.width = '100%';  // trying both function types for practice
+							 openNav2 = () => {
+				document.getElementById('myNav').style.width = '250px';
+				document.getElementById('main').style.marginLeft = '250px';
+				document.body.style.backgroundColor = 'rgba(6,66,115,.4)';
+
+			}
+
 				function closeNav(){
 					document.getElementById('myNav').style.width = '0%';
+					document.getElementById('main').style.marginLeft='0%';
+					document.body.style.backgroundColor = 'white';
 				}
 		</script>
 		

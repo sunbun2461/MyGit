@@ -3,7 +3,17 @@ website for local machine:
 
 file:///home/thomas/Dropbox/Web%20Dev/MyGit/Portfolio/webdevelopfolio-about.html
 
-	building this mobile first, so i will assume everything is going to be for mobile, and then change it. however, does that mean I need two nav bars? i dont put the media query in the HTML so maybe yes I do need two nav bars.-->
+	building this mobile first, so i will assume everything is going to be for mobile, and then change it. however, does that mean I need two nav bars? i dont put the media query in the HTML so maybe yes I do need two nav bars.
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacity
+
+current issues: 4/20 
+	favicon not working in the tab
+	when you hit the side nav, it resets the page, bringing you back to the top.
+
+
+
+-->
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -45,8 +55,9 @@ file:///home/thomas/Dropbox/Web%20Dev/MyGit/Portfolio/webdevelopfolio-about.html
 				<a href="webdevelopfolio-resume.html">R&eacute;sum&eacute;</a> <!-- resume -->
 			</div>
 		</div>
-		
+		<div id="main">
 		<div class="header">
+			<a class="openbtnDesktop" href="#" onclick="openNav2()"><i class="fa fa-bars"></i></a>
 			<a class='openbtn' href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
 			<h1><em>Thomas Ashton Rio</em></h1>
 			<p>Front-end Web Developer</p>
@@ -55,9 +66,9 @@ file:///home/thomas/Dropbox/Web%20Dev/MyGit/Portfolio/webdevelopfolio-about.html
 			<a href="https://www.linkedin.com/in/thomas-rio-b2462a3b/" target="_blank" class="fa fa-linkedin"></a>
 			<!-- <a href="#" class="fa fa-twitter"></a> -->
 			<a href="http://immaturegenius.com" class="fa fa-code" aria-hidden="true"></a>
-			<a href="https://learn.freecodecamp.org/" class="fa fa-free-code-camp" target="_blank" ></a>
+			<a href="assets/images/freecodecampCert.png" class="fa fa-free-code-camp" target="_blank" ></a>
 		</div>
-		
+		</div>
 		<!--<img src="../images/me_chalkin_code2.jpeg" alt="Thomas Rio coding in chalk"> -->
 		<script>
 			// function  myFunction(){
@@ -71,8 +82,17 @@ file:///home/thomas/Dropbox/Web%20Dev/MyGit/Portfolio/webdevelopfolio-about.html
 			     openNav = () =>  
 				document.getElementById('myNav').style.width = '100%';  // trying both function types for practice 
 
+				 openNav2 = () => {
+				document.getElementById('myNav').style.width = '250px';
+				document.getElementById('main').style.marginLeft = '250px';
+				document.body.style.backgroundColor = 'rgba(6,66,115,.4)';
+
+			}
+
 				function closeNav(){
 					document.getElementById('myNav').style.width = '0%';
+					document.getElementById('main').style.marginLeft='0%';
+					document.body.style.backgroundColor = 'white';
 				}
 		</script>
 		

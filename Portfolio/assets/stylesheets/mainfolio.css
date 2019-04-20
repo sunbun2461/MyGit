@@ -65,6 +65,10 @@
 
 
 
+/*https://www.color-hex.com/color-palette/3497*/
+
+
+
 /*mobile first, up to 768px */
 html, body{
     margin:0;
@@ -145,6 +149,11 @@ body{
         50% {color: white;}
     }
 
+.openbtnDesktop{
+  display: none;
+}
+
+
 
 
 .overlay a:hover, .overlay a:focus{
@@ -164,7 +173,7 @@ div > .fa{
     font-family: FontAwesome;
     text-align: center;
     text-decoration: none;
-    color: grey/*#fed8dc*/;
+    color:  #7fcdff/*#fed8dc*/;
     display: flex;
     justify-content: center;
     margin: 5% auto 0px;
@@ -186,19 +195,19 @@ div > .fa{
 
 
 .header > h1{
-  margin: 12% 5% 2%;
+  margin: 45% 5% 0%;
   font-family: muli;
   font-size: 2.5em;
-  color:grey;
+  color:#064273;
   text-align: center;
-  padding: 5% 0%;
+  padding: 0% 0%;
   font-weight: bold;
 }
 .header > p {
-  margin: 0% 5% 10%;
+  margin: 0% 5% 15%;
   font-family: muli;
-  font-size: 1.0em;
-  color:grey;
+  font-size: 1.4em;
+  color:#064273;
   text-align: center;
   font-weight: bold;
 }
@@ -207,14 +216,22 @@ ul{
    list-style-position:  inside; 
    list-style-type:none;
    font-family: muli;
-   font-size: 1em;
-   color: grey;
+   font-size: 1.2em;
+   color: black/*#064273*/;
    text-align:center;
    font-weight: bold;
    margin-bottom:35%;
    display:inline;
 }
 
+ul a {
+  text-decoration: none;
+  color:black;
+}
+ul a:hover{
+  text-decoration: underline;
+  color:white;
+}
 
  div.thumb{
    width: 60%;
@@ -263,9 +280,13 @@ div > a > button{
   margin: 0px auto 0px;
 }
 
-ul{
+/*ul{
   color:black;
-}
+}*/
+
+
+
+
 /*for desktop only */
 @media only screen and (min-width: 768px){
 
@@ -283,12 +304,158 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.5;
+  background-color: black;
+  opacity: .6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
 }
+
+
+
+.header > h1{
+  margin: 5% 0% 0%;
+  font-family: muli;
+  font-size: 2.5em;
+  color:#064273;
+  text-align: center;
+  padding: 0% 0%;
+  font-weight: bold;
+}
+.header > p {
+  margin: 0% 5% 5%;
+  font-family: muli;
+  font-size: 1.4em;
+  color:#064273;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul{
+   list-style-position:  inside; 
+   list-style-type:none;
+   font-family: muli;
+   font-size: 1.2em;
+   color:black/* #064273*/;
+   text-align:center;
+   font-weight: bold;
+   margin-bottom:35%;
+   display:inline;
+}
+
+/*ul{
+   list-style-position:  inside; 
+   list-style-type:none;
+   font-family: muli;
+   font-size: 1.3em;
+   color: #def3f6;
+   text-align:center;
+   font-weight: bold;
+   margin-bottom:35%;
+   display:inline;
+}
+*/
+
+.overlay {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:  rgb(0,0,0);
+    background-color:  rgba(0,0,0,0.93);
+    overflow-x:hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.overlay-content{
+    position: relative;
+    top: 30%;
+    width:100%;
+    text-align: center;
+    /*margin-top: 10%;*/
+}
+.overlay a {
+    padding: 2.5%;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #818181;
+    display: block;
+    transition: .7s;
+
+}
+
+.openbtn{/*
+    position: fixed;
+    top:1em;
+    right:1em;
+    padding: 0;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #818181;*/
+    display: none;/*
+    animation: myMove 5s infinite;
+}
+    @keyframes myMove{
+        50% {color: white;}
+    }
+*/
+}
+
+.openbtnDesktop{
+  position:fixed;
+  top:1em;
+  left:1em;
+  padding:0;
+  text-decoration: none;
+  font-size: 3em;
+  color: #818181;
+  display: block;
+  animation: myMove 5s infinite;
+}
+  @keyframes myMove{
+    50%{color:white;}
+  }
+
+
+
+.overlay a:hover, .overlay a:focus{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    font-size: 5em;/*
+    margin-left: 50px;*/
+}
+
+#main{
+  /*margin:0px;*/
+  transition: margin-left .5s;
+  padding: 16px;
+  height:100vh;
+}
+
+
+div > .fa{
+    font-size: 5.5em;
+    width: 0%;
+    font-family: FontAwesome;
+    text-align: center;
+    text-decoration: none;
+    color:  #7fcdff/*#fed8dc*/;
+    display: flex;
+    justify-content: center;
+    margin: 2% auto 0px;
+
+}
+
+
 
 }
 
