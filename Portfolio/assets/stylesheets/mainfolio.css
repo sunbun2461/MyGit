@@ -131,12 +131,14 @@ body{
 }
 
 .openbtn{
-    padding: 2%;
+    position: fixed;
+    top:1em;
+    right:1em;
+    padding: 0;
     text-decoration: none;
     font-size: 2.5em;
     color: #818181;
     display: block;
-    text-align: right;
     animation: myMove 5s infinite;
 }
     @keyframes myMove{
@@ -242,15 +244,59 @@ div > .topIcon{
     margin-top:20%;
 }
 
+.aboutFCC{
+  margin-top: 2.3em !important;
+  margin-bottom: 0px !important;
+  padding:0px;
+}
 
+#aboutP{
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+
+footer{
+  height: 4em;
+}
+div > a > button{
+  display:block;
+  margin: 0px auto 0px;
+}
+
+ul{
+  color:black;
+}
 /*for desktop only */
 @media only screen and (min-width: 768px){
 
     body{
-        /*background-color: black;*/
+      /*  background: linear-gradient(90deg,#C3E2F7, #D1E9E4, #F8E6E9);*/
+}
+
+    img{/*
+        display: none;*/
     }
-    img{
-        /*display: none;*/
-    }
+    .mobile-background {
+  position: fixed;
+  z-index: -1;    
+  background-image: url(https://images.unsplash.com/14/unsplash_524000a90aaad_1.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80 );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
 }
+
+/*
+https://images.unsplash.com/photo-1530913629899-1037032b8392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80*/
+
+
+/*https://images.unsplash.com/photo-1490713230272-bf236b61ad43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80*/
+
+
+/*   https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80*/
