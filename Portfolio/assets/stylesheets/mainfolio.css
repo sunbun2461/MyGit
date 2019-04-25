@@ -68,12 +68,12 @@
 /*https://www.color-hex.com/color-palette/3497*/
 
 
-
 /*mobile first, up to 768px */
 html, body{
     margin:0;
     padding:0;
     height:100%;
+    /*perspective: 700px;*/
 }
 
 body{ 
@@ -85,6 +85,11 @@ body{
         background-size: cover;
          background-color: rgba(255, 255, 255, 0.2);*/
 }
+/*reset*/
+
+
+
+
 
 .mobile-background {
   position: fixed;
@@ -173,7 +178,7 @@ div > .fa{
     font-family: FontAwesome;
     text-align: center;
     text-decoration: none;
-    color:  #7fcdff/*#fed8dc*/;
+    color:  #F4E9CD/*#7fcdff#fed8dc*/;
     display: flex;
     justify-content: center;
     margin: 5% auto 0px;
@@ -217,7 +222,7 @@ ul{
    list-style-type:none;
    font-family: muli;
    font-size: 1.2em;
-   color: black/*#064273*/;
+   color: #468189/*#064273*/;
    text-align:center;
    font-weight: bold;
    margin-bottom:35%;
@@ -226,7 +231,7 @@ ul{
 
 ul a {
   text-decoration: none;
-  color:black;
+  color:#468189;
 }
 ul a:hover{
   text-decoration: underline;
@@ -275,9 +280,99 @@ div > .topIcon{
 footer{
   height: 4em;
 }
-div > a > button{
+/*div > a > button{
   display:block;
   margin: 0px auto 0px;
+}
+button{
+ background: transparent;
+ border:0;
+ padding:0;
+ cursor: pointer;
+ outline:0;
+ -webkit-appearance: none;
+}
+
+button{
+
+padding:1.6em 2em;
+display: block;
+
+font-size:2em;
+font-family: 'Open Sans', Helvetica;
+border-radius: 4px;
+border-bottom: 1px solid rgba(28,227,125,0.5);
+background: rgba(22,230,137,1);
+color: #fff;
+box-shadow: 0px 0px 0px rgba(15,165,60,0.1);
+-webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+        transform: translateZ(0);
+-webkit-transform: all 0.2s ease;
+   -moz-transform: all 0.2s ease;
+    -ms-transform: all 0.2s ease;
+        transform: all 0.2s ease;
+}
+
+button:hover{
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba(15,165,60,0.2)
+  -webkit-transform: rotateX(20deg);
+   -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+        transform: rotateX(20deg);
+}
+
+button:active{
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba(15,165,60, 0.0);
+  background:rgba(20,224,133,1);
+}
+*/
+
+.button {
+  position: relative;
+  background: #064273;
+  /*bottom:2%;
+  right:2%;*/
+  margin: 0% auto;
+  width : 200px;
+  height : 50px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.btnTwo {
+  position : relative;
+  width : 200px;
+  height : 100px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #26A69A;
+  left : -250px;
+  transition : .3s;
+}
+.btnText {
+  color : white;
+  transition : .3s;
+}
+.btnText2 {
+  margin-top : 63px;
+  margin-right : -130px;
+  color : #FFF;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  left: -130px;
+}
+.button:hover .btnText{ /*When hovering over .button change .btnText*/
+  margin-left : 65px;
+}
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
 }
 
 /*ul{
@@ -305,7 +400,7 @@ div > a > button{
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
-  opacity: .6;
+  opacity: .9;
   top: 0;
   left: 0;
   bottom: 0;
@@ -318,7 +413,7 @@ div > a > button{
   margin: 5% 0% 0%;
   font-family: muli;
   font-size: 2.5em;
-  color:#064273;
+  color:#031926,#064273;
   text-align: center;
   padding: 0% 0%;
   font-weight: bold;
@@ -327,7 +422,7 @@ div > a > button{
   margin: 0% 5% 5%;
   font-family: muli;
   font-size: 1.4em;
-  color:#064273;
+  color: #031926/*#064273;*/
   text-align: center;
   font-weight: bold;
 }
@@ -337,7 +432,7 @@ ul{
    list-style-type:none;
    font-family: muli;
    font-size: 1.2em;
-   color:black/* #064273*/;
+   color: #468189/* #064273*/;
    text-align:center;
    font-weight: bold;
    margin-bottom:35%;
@@ -438,7 +533,7 @@ ul{
   /*margin:0px;*/
   transition: margin-left .5s;
   padding: 16px;
-  height:100vh;
+  /*height:100vh;*/
 }
 
 
@@ -448,14 +543,17 @@ div > .fa{
     font-family: FontAwesome;
     text-align: center;
     text-decoration: none;
-    color:  #7fcdff/*#fed8dc*/;
+    color:  
+#F4E9CD/*#7fcdff/*#fed8dc*/;
     display: flex;
     justify-content: center;
     margin: 2% auto 0px;
 
 }
 
-
+p{
+  color:#468189;
+}
 
 }
 
