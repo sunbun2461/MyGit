@@ -117,7 +117,7 @@ body{
     top:0;
     left:0;
     background-color:  rgb(0,0,0);
-    background-color:  rgba(255,155,155,0.99);
+    background-color:  rgba(127,205,255,0.99);
     overflow-x:hidden;
     transition: 0.5s;
 }
@@ -185,7 +185,7 @@ div > .fa{
     font-family: FontAwesome;
     text-align: center;
     text-decoration: none;
-    color:#527771  /*#F4E9CD #7fcdff#fed8dc*/;
+    color:#188d9d/*#527771  /*#F4E9CD #7fcdff#fed8dc*/;
     flex-direction: row;
     margin: 5% auto 0px;
 
@@ -207,12 +207,12 @@ div > .fa{
 
 .header > h1{
   margin: 35% 5% 0%;
-  font-family: muli;
+  font-family:'Permanent Marker','Berkshire Swash',muli;
   font-size: 3.5em;
-  color: #468189/*,#064273*/;
+  color: #188d9d /*, #468189/*,#064273*/;
   text-align: center;
   padding: 0% 0%;
-  font-weight: bold;
+  font-weight: normal;
 }
 .header > h2{
   margin: 10% 5% 0%;
@@ -257,12 +257,12 @@ ul a:hover{
 
 
  div.thumb{
-   width: 60%;
-   background-color: white; 
+   width: 50%;
+   /*background-color: white; */
    /*box-shadow: 3px 3px 5px 6px #bbb;*/
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
    margin: 25% auto 5%;
-   border-radius: 8px;
+   border-radius: 10px;
  }
 
  div.info-container{
@@ -270,14 +270,17 @@ ul a:hover{
     padding:5%;
     margin: 0% auto 0%;
     vertical-align: center;
-    font-family: muli;
-    border-radius: 8px;
+    font-family: 'Berkshire Swash';
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
  }
 
  img{
     display: block;
     width: 100%;
-    opacity: .9;
+    opacity: .8;
     height: 100%;
     margin: 0% auto 0;
     border-radius: 8px 8px 0px 0px;
@@ -417,7 +420,10 @@ button:active{
     .mobile-background {
   position: fixed;
   z-index: -1;    
-  background-image: url(https://images.unsplash.com/14/unsplash_524000a90aaad_1.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80 );
+  background-image: url(../images/abstract.jpeg);
+  /*background-image: url(https://images.unsplash.com/14/unsplash_524000a90aaad_1.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80 );
+  */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -431,18 +437,22 @@ button:active{
 
 .header > h1{
   margin: 200px 5% 0%;
-  font-family: muli;
+  font-family: 'Permanent Marker','Berkshire Swash',muli;
   font-size: 4em;
-  color:#f4e9cd/*,#031926,#064273*/;
+  color:black/*#f4e9cd/*,#031926,#064273*/;
   text-align: center;
   padding: 0% 0%;
-  font-weight: bold;
+  font-weight: normal;
 }
+h1 > span{
+  color: red;
+}
+
 .header > p {
   margin: 0% 5% 5%;
   font-family: muli;
   font-size: 1.4em;
-  color: #031926/*#064273;*/
+  color: black/*#031926/*#064273;*/
   text-align: center;
   font-weight: bold;
 }
@@ -452,16 +462,16 @@ ul{
    list-style-type:none;
    font-family: muli;
    font-size: 1.2em;
-   color: #F4E9CD/*#468189/* #064273*/;
+   color:black /*#F4E9CD/*#468189/* #064273*/;
    text-align:center;
    font-weight: none;
    margin-bottom:35%;
    display:inline;
 }
 
-ul a {
+ul a:hover {
   text-decoration: none;
-  color:#f4e9cd/*#031926 #468189*/;
+  color:red /*#f4e9cd/*#031926 #468189*/;
 }
 
 /*ul{
@@ -572,7 +582,7 @@ div > .fa{
     font-family: FontAwesome;
     text-align: center;
     text-decoration: none;
-    color:  #F4E9CD/*#7fcdff/*#fed8dc*/;
+    color:  black/*#F4E9CD/*#7fcdff/*#fed8dc*/;
     justify-content: center;
     margin: 2% auto 0px;
 
@@ -580,11 +590,11 @@ div > .fa{
 
 
 
-
+/*
 p{
   color:#468189;
 }
-
+*/
 }
 
 /*
