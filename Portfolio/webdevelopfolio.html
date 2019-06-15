@@ -57,12 +57,15 @@ use what criteria you fall into. make it snappy
 				<a href="webdevelopfolio-resume.html">R&eacute;sum&eacute;</a> <!-- resume -->
 			</div>
 		</div>
-			<nav>
+		<div class="header">
+			<nav> 
 			<div class="navLeft">
 				<div class="nav-item">
-				<a href="#">Thomas Ashton Rio</a>
+				<a style="padding-top: 5px;display: inline-flex;" 
+				href="#">Thomas Ashton Rio</a>
+				<p style="font-weight: lighter;">Front-end Web Developer</p>
 				</div>
-			</div>		
+			</div>	 	
 			<div class="navRight">
 				<div class="nav-item">
 				<a href="webdevelopfolio.html"><i class="fa fa-home"></i></a>
@@ -79,57 +82,62 @@ use what criteria you fall into. make it snappy
 			</div>
 		</nav>
 		<!-- <div id="main" style="overflow:hidden;"> -->
-			<div class="header">
+			<!-- <div class="header"> -->
 				
 				<span class="openbtnDesktop" href="#" onclick="openNav2()"><i class="fa fa-bars"></i></span>
 				<a class='openbtn' href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
+			<div>	
 				<h1 class="mobileOnly">Thomas Ashton Rio</h1>
-				<h1 class="desktopOnly">Thomas<span>&#8226;</span>Ashton<span>&#8226;</span>Rio</h1>
 				<p style="font-weight: lighter;">Front-end Web Developer</p>
+			</div>
+			<!-- 	<h1 class="desktopOnly">Thomas<span>&#8226;</span>Ashton<span>&#8226;</span>Rio</h1> -->
+				
 				<!-- <h2></h2> -->
 				<div class="displayArea">
-					<div id="skills" class="displayAreaItem">
-						<p>Skills Page</p>
+					<div id="aboutThomas" class="displayAreaItem">
+						<p>About Me</p>
 					</div>
-					<div id="exp" class="displayAreaItem">
-						<p>Experience</p>
+					<div id="folio" class="displayAreaItem">
+						<p>Folio paid and unpaid projects.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nobis repellat veritatis ratione quibusdam, nulla, quaerat est voluptatum eligendi incidunt optio culpa exercitationem excepturi itaque earum quisquam architecto! Facere, suscipit.
+						</p>
 					</div>
-					<div id="certs" class="displayAreaItem">
-						<p>Certs</p>
+					<div id="algorithms" class="displayAreaItem">
+						<p>JavaScript Algorithms</p>
 					</div>
 					<div id="edu" class="displayAreaItem">
 						<p>Education</p>
 					</div>
-					<div id="goals" class="displayAreaItem">
-						<p>Goals</p>
+					<div id="contact" class="displayAreaItem">
+						<p>Contact</p>
 					</div>	
-					<div id="whatev" class="displayAreaItem">
-						<p>Whatever Else</p>	
+					<div id="resumeSquare" class="displayAreaItem">
+						<p>Resume</p>	
 					</div>
 				</div>
 				<div class='about-container-container'>
 				<div class="about-container">
 					<!-- start of function, make all div in the display area display:none,
 						then, whichever one you click on, make that specifically display:block  -->
-					<a onclick="skillsShow()" href="#" class="about-item"><div class="about-item">
-						<h1>Skills</h1>
+					<a onclick="aboutShow()" href="#" class="about-item"><div class="about-item">
+						<h1>About Me</h1>
 					</div></a>
-					<a onclick="expShow()" href="#" class="about-item"><div class="about-item">
-						<h1>Experience</h1>
+					<a onclick="folioShow()" href="#" class="about-item"><div class="about-item">
+						<h1>Folio Projects</h1>
 					</div></a>
-					<a onclick="certShow()" href="#" class="about-item"><div class="about-item">
-						<h1>Certs</h1>
+					<a onclick="algorithmsShow()" href="#" class="about-item"><div class="about-item">
+						<h1>JS Algorithms</h1>
 					</div></a>
 				</div>
 				<div class="about-container">
 					<a onclick="eduShow()" href="#" class="about-item"><div class="about-item">
 						<h1>Education</h1>
 					</div></a>
-					<a onclick="goalsShow()" href="#" class="about-item"><div class="about-item">
-						<h1>Goals</h1>
+					<a onclick="contactShow()" href="#" class="about-item"><div class="about-item">
+						<h1>Contact</h1>
 					</div></a>
-					<a onclick="whatevShow()" href="#" class="about-item"><div class="about-item">
-						<h1>Whatever Else</h1>
+					<a onclick="resumeShow()" href="#" class="about-item"><div class="about-item">
+						<h1>Resume</h1>
 					</div></a>
 				</div>
 			</div>    
@@ -139,21 +147,32 @@ use what criteria you fall into. make it snappy
 						<a href="https://github.com/sunbun2461"  target="_blank"
 						class="fa fa-github"></a>
 						<p class="faDescribe">GitHub</p>
+						<p class="faDescribe2">Lorem ipsum dolor sit amet, consectetur adipisicing .
+						</p>
 					</div>
 					<div class="fa-item">
 						<a href="https://www.linkedin.com/in/thomas-rio-b2462a3b/" target="_blank" class="fa fa-linkedin"></a>
 						<p class="faDescribe">LinkedIn</p>
+
+						<p class="faDescribe2">Lorem ipsum dolor sit amet, consectetur adipisicing 
+						</p>
 					</div>
 					<!-- <a href="#" class="fa fa-twitter"></a> -->
 					<div class="fa-item">
 						<a href="http://immaturegenius.com" class="fa fa-code" aria-hidden="true"></a>
 						
 						<p class="faDescribe">My Blog</p>
+
+						<p class="faDescribe2">Lorem ipsum dolor sit amet, consectetur adipisicing 
+						</p>
 					</div>
 					<div class="fa-item">
 						<a  href="assets/images/freecodecampCert.png" class="fa fa-free-code-camp" target="_blank" ></a>
 						
 						<p class="faDescribe">My Education</p>
+
+						<p class="faDescribe2">Lorem ipsum dolor sit amet, consectetur adipisicing 
+						</p>
 					</div>
 				</div>
 				<!-- <div class="fa-container">
@@ -185,28 +204,28 @@ use what criteria you fall into. make it snappy
 			
 
 
-			function skillsShow(){
+			function aboutShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem'); 
 				for(let i = 0; i < aboutSquare.length;i++){
 				aboutSquare[i].style.display = 'none';
 				}
-				document.getElementById('skills').style.display = 'block'; 
+				document.getElementById('aboutThomas').style.display = 'block'; 
 			} 
-			function expShow(){
+			function folioShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem');
 				for(let i = 0; i < aboutSquare.length;i++){
 				aboutSquare[i].style.display = 'none';
 				} 
 
-				document.getElementById('exp').style.display = 'block'; 
+				document.getElementById('folio').style.display = 'block'; 
 			} 
-			function certShow(){
+			function algorithmsShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem'); 
 				for(let i = 0; i < aboutSquare.length;i++){
 				aboutSquare[i].style.display = 'none';
 				}
 
-				document.getElementById('certs').style.display = 'block'; 
+				document.getElementById('algorithms').style.display = 'block'; 
 			} 
 			function eduShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem'); 
@@ -216,21 +235,21 @@ use what criteria you fall into. make it snappy
 
 				document.getElementById('edu').style.display = 'block'; 
 			}
-			function goalsShow(){
+			function contactShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem'); 
 				for(let i = 0; i < aboutSquare.length;i++){
 				aboutSquare[i].style.display = 'none';
 				}
 
-				document.getElementById('goals').style.display = 'block'; 
+				document.getElementById('contact').style.display = 'block'; 
 			} 
-			function whatevShow(){
+			function resumeShow(){
 				let aboutSquare = document.getElementsByClassName('displayAreaItem');
 				for(let i = 0; i < aboutSquare.length;i++){
 				aboutSquare[i].style.display = 'none';
 				}
 
-				document.getElementById('whatev').style.display = 'block'; 
+				document.getElementById('resumeSquare').style.display = 'block'; 
 			}
 		</script>
 		
