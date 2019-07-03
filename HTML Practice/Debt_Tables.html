@@ -2,27 +2,33 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 		<title>Debt Table</title>
 		<style type="text/css">
 			body{
-				background-color: #8dd1f14d;
+				background-color: #bce7fd;
+				font-family: 'Roboto Slab';
 			}
 			h2{
-				font-family:arial;
-				font-size: 2em;
+				font-family: 'Roboto Slab';
+				font-size: 3.5vh;
+				margin:0%;
 
 			}
 			table{
-				width:60%;
-				font-family: helvetica;
-				border-collapse: collapse;
+				width:100%;
+				font-family: 'Roboto Slab';
+				/*border-collapse: collapse;*/
+				font-size:2vh;
 			}
 			.final{
-				margin-top:50px;
-				margin-bottom:0px;
+				margin-top:1%;
+				display:flex;
+				width:100vw;
+				justify-content: center;
 			}
 			img{
-				height:60vh;
+				height:50vh;
 			}
 			th{
 				font-size:1.5em;
@@ -31,9 +37,11 @@
 			.big-container{
 				display: flex;
 				flex-direction: column;
+				align-items:center;
 			}
 			.pic-container{
 				display:flex;
+				align-self: center;
 			}
 			td,th{
 				border:1px solid #dddddd;
@@ -41,44 +49,60 @@
 				padding:8px;
 			}
 			tr:nth-child(even){
-				background-color: #dddddd
+				background-color: #b0db4391;
+			}
+			.topRow{
+				background-color: #c492b1;
+				color:#black;
+			}
+			#total{
+				height:fit-content;
+				margin-left:2%;
+				font-size: 3.5vh;
 			}
 		</style>
 	</head>
 	<body>
 <div class="big-container">
-		<h2>Thomas' Debts for 2019 Ejection</h2>
+		<h2>Thomas' Debts for Ejection 2019</h2>
 		<table>
-			<tr>
+			<tr class="topRow">
 				<th>Who am I Paying?</th>
 				<th>Total Amount Owed</th>
 				<th>Want Paid Off By</th>
 			</tr>
 			<tr>
 				<td>Sudden Link</td>
-				<td>$300</td>
+				<td id="debt1">$150</td>
 				<td>June 2019</td>
 			</tr>
 			<tr>
 				<td>Capital One</td>
-				<td>$739</td>
+				<td id="debt2">$606.51</td>
 				<td>August 2019</td>
 			</tr>
 			<tr>
 				<td>Federal Student Loan June 2019</td>
-				<td>$2537.46</td>
+				<td id="debt3">$2537.46</td>
 				<td>Christmas 2019</td>
 			</tr>
 		</table>
 	<div class="final">
-		<h2>Total Debt:</h2><p id="total"></p>
+		<h2>Total Debt:</h2><span id="total"></span>
 	</div>
 
 		<!-- <div style="height:0px;"></div> -->
 		<div class="pic-container">
-		<img style="float:right;" src="https://cdn.ramseysolutions.net/media/common_images/article_images/bv/bv_baby_steps_main.jpg">
+		<img style="border-radius:20px;" src="https://cdn.ramseysolutions.net/media/common_images/article_images/bv/bv_baby_steps_main.jpg">
 	</div>
 	</div>
+	<script>
+		let totalDebt = Math.round(150 + 606.51 + 2537.46); 
+		// valueAsNumber + document.getElementById('debt2').valueAsNumber + document.getElementById('debt3').valueAsNumber;
+
+		document.getElementById("total").innerText = '$' + totalDebt;
+	
+	</script>
 	</body>
 </html>
 
